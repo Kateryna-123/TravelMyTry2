@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer{
+    background: #16595A;
+    height: 91px;
+
+}
+.container{
+    width: 1440px;
+
+}
+.header_top{
+    height: 66px;
+    padding: 0 230px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+
+}
+.header-nav{
+    display: flex;
+    column-gap: 45px;
+
+
+}
+
+nav_item{
+    font-size: 18px;
+    line-height: 60px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    left: 205px;
+    column-gap: 6px;
+    align-items: center;
+
+
+}
+.nav_item a{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+
+}
+.header-logo{
+    width: 114px;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 16px;
+    left: 1125px;
+
+}
+.header-logo a{
+    font-size: 16px;
+    color: #C4C4C4;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+h5{
+    font-size: 62px;
+    line-height: 20px;
+    color: #000000;
+    height: 80px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-header{
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    height: 51px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.main-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-family: Playfair Display;
+
+
+
+}
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+}
+.card-text{
+    margin-top: 15px;
+}
+
+
